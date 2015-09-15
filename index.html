@@ -234,8 +234,8 @@
     <footer>
         <div class="container">
             <div class="row">
-                <div class="col-lg-10 col-lg-offset-1 text-center">
-                    <h4><strong>LED Fellowship</strong>
+                <div class="col-xs-6 text-center">
+                    <h4><strong>PCCMA</strong>
                     </h4>
                     <p>7435 SE Foster Rd<br>Portland, OR 97206</p>
                     <ul class="list-unstyled">
@@ -257,15 +257,62 @@
                             <a href="#"><i class="fa fa-dribbble fa-fw fa-3x"></i></a>
                         </li>
                     </ul>
-                    <hr class="small">
-                    <p class="text-muted">Copyright &copy; 2015</p>
+
                 </div>
+                <div class="col col-xs-6">
+                  <form class="form-horizontal" id="contact_form">
+                    <h4 class="text-center"><strong>Send Me An Email</strong></h4>
+
+                  <!-- Text input-->
+                  <div class="form-group">
+
+                    <input id="name" name="name" type="text" placeholder="Enter your full name here" class="form-control input-md" required="">
+
+
+                  </div>
+
+                  <!-- Text input-->
+                  <div class="form-group">
+
+                    <input id="email" name="email" type="text" placeholder="Enter your email address here" class="form-control input-md" required="">
+
+
+                  </div>
+
+                  <!-- Textarea -->
+                  <div class="form-group">
+
+                      <input class="form-control" id="msg" name="msg" placeholder="Enter your message here">
+
+                  </div>
+
+                  <!-- Button -->
+                  <div class="form-group text-center">
+
+                      <button id="submit" name="submit" class="btn btn-primary">Send Message</button>
+
+                  </div>
+
+                  </fieldset>
+                  </form>
+                </div>
+
+
             </div>
+
         </div>
+
     </footer>
+    <div class="footer-below text-center">
+      <hr class="small">
+      <p class="text-muted">Copyright &copy; 2015</p>
+    </div>
 
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
+
+    <!-- script for mandrill -->
+    <script src="js/script.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
