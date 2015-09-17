@@ -245,3 +245,26 @@ footer {
 .invisible {
   visibility: hidden;
 }
+
+.hero-spacer {
+    margin-top: 50px;
+}
+
+.hero-feature {
+    margin-bottom: 30px;
+}
+#events {
+  text-align: left;
+}
+
+.jumbotron {
+  background-color: white;
+}
+#led {
+  color: black;
+}
+#head {
+  border: 1px solid;
+  border-color: lightgray;
+  background-color: lightgray;
+}
