@@ -202,16 +202,12 @@ hr.small {
     margin-bottom: 30px;
 }
 
-.img-portfolio {
+/*.img-portfolio {
     margin: auto auto;
-}
+}*/
 
 .img-portfolio:hover {
     opacity: 0.8;
-}
-
-#portcontainer {
-width: 100%;
 }
 
 /* Call to Action */
@@ -272,4 +268,6 @@ footer {
   border-color: lightgray;
   background-color: lightgray;
 }
-z
+.container-fluid h2 {
+  text-align: center;
+}
